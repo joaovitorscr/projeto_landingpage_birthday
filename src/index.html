@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero__title">Aniversário do João Vitor</h1>
+            <p class="hero__text">
+                O meu aniversário começa em <br>
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Minha casa
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Dress code</b>
+                        Casual
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        21/09/2023 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--bolo">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Bolo para todos</h2>
+                <p class="event__details__description">
+                    Sim, eu vou fazer essa piada.
+                    VEM VAI TER BOLO!
+                </p>
+            </div>
+            <img class="event__image" src="./images/cake.jpg" alt="Front-end">
+        </div>
+    </section>
+    <section class="event event--openbar event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Open Bar</h2>
+                <p class="event__details__description">
+                    Pode vir que a bebida é por minha conta! Só não quebre nada.
+                </p>
+            </div>
+            <img class="event__image" src="./images/openbar.jpg" alt="Front-end">
+        </div>
+    </section>
+    <section class="event event--doce">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Doce</h2>
+                <p class="event__details__description">
+                    Doces, docinhos e doção. De todos os tamanhos, gostos e pessoas
+                </p>
+            </div>
+            <img class="event__image" src="./images/doces.jpg" alt="Front-end">
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/src/scripts/main.js"></script>
+</body>
+</html>
